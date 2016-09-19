@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#app-container {
+  max-width: 960px; }
+
+h2 {
+  color: red; }
+
+/*# sourceMappingURL=styles.css.map */
