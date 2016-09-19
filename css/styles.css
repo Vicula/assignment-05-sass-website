@@ -78,7 +78,8 @@ button {
     float: right;
     margin-right: 0px;
     width: 20%;
-    margin-left: 40%; }
+    margin-left: 40%;
+    font-size: 25px; }
     .navbut .menu {
       width: 50%;
       float: right;
