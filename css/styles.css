@@ -57,6 +57,41 @@ input {
 button {
   border: 0.5px lightgray solid; }
 
+.filterbox {
+  background: white;
+  opacity: 0.95;
+  position: absolute;
+  width: 80%;
+  text-align: left;
+  margin-left: 8%;
+  visibility: hidden; }
+
+.menubox {
+  background: white;
+  opacity: 0.95;
+  position: absolute;
+  width: 80%;
+  text-align: left;
+  margin-left: 8%;
+  visibility: hidden; }
+
+.navbut {
+  font-style: normal; }
+  .navbut ul {
+    list-style: none;
+    width: 90%; }
+  .navbut li {
+    opacity: 1;
+    margin-top: 5px;
+    height: 35px;
+    border-bottom: 0.5px gray solid; }
+
+.filter:hover .filterbox {
+  visibility: visible; }
+
+.menu:hover .menubox {
+  visibility: visible; }
+
 @media screen and (min-width: 768px) {
   .img-container {
     width: 33.333%; }
@@ -99,7 +134,9 @@ button {
     width: 100%; }
 
   form {
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 20px;
+    margin-left: 20px; }
     form input {
       margin: 0;
       display: inline-block;
