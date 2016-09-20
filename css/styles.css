@@ -140,7 +140,15 @@ button {
     form input {
       margin: 0;
       display: inline-block;
-      width: 15%; } }
+      width: 15%; }
+
+  .filterbox {
+    width: 20%;
+    right: 50px; }
+
+  .menubox {
+    width: 20%;
+    right: 30px; } }
 @media screen and (min-width: 1024px) {
   .img-container {
     width: 25%; } }
